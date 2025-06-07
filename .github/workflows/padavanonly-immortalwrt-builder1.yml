@@ -20,7 +20,7 @@ env:
   REPO_URL: https://github.com/JohnnyDu0815/immortalwrt-mt798x-24.10
   REPO_BRANCH: 2410
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: config/20250606.config
+  CONFIG_FILE: padavanonly-immortalwrt-mt798x-24.10.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part5.sh
   UPLOAD_BIN_DIR: false
@@ -156,9 +156,8 @@ jobs:
 
     - name: Generate Variables
       run: |
-        cp $CONFIG_FILE $OPENWRT_PATH/.config
+        #cp $CONFIG_FILE $OPENWRT_PATH/.config
         cd $OPENWRT_PATH
-        ls -al .config
         make defconfig > /dev/null 2>&1
         SOURCE_REPO="$(echo $REPO_URL | awk -F '/' '{print $(NF)}')"
         echo "SOURCE_REPO=$SOURCE_REPO" >> $GITHUB_ENV
