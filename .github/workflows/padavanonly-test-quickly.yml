@@ -1,4 +1,4 @@
-name:  20250519UP-优化空间+清理缓存 Build padavanonly-immortalwrt-builder test
+name:  padavanonly-test-quickly
 
 on:
   repository_dispatch:
