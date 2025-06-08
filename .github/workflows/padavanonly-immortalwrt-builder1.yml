@@ -1,16 +1,4 @@
-#
-# https://github.com/P3TERX/Actions-OpenWrt
-#
-# File: .github/workflows/openwrt-bulder.yml
-# Description: Build OpenWrt using GitHub Actions
-#
-# Copyright (c) 2019-2024 P3TERX <https://p3terx.com>
-#
-# This is free software, licensed under the MIT License.
-# See /LICENSE for more information.
-#
-
-name: padavanonly-immortalwrt-builder
+name:  20250519UP-优化空间+清理缓存 Build padavanonly-immortalwrt-builder test
 
 on:
   repository_dispatch:
