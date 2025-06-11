@@ -51,9 +51,9 @@ echo 'src-git smpackage https://github.com/kenzok8/small-package.git;main' >>fee
 
  # echo "更新源git pull && feeds update"
  
-git pull 
+#git pull 
 
-https://github.com/kenzok8/small
+#https://github.com/kenzok8/small
 # 一键命令(防止插件冲突，删除重复)
 
 echo -e "\033[31m =========== 一键命令 防止插件冲突，删除重复 =========== \033[0m"
