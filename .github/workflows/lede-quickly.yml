@@ -1,4 +1,4 @@
-name:  padavanonly-test-quickly
+name:  lede-test-quickly
 
 on:
   repository_dispatch:
