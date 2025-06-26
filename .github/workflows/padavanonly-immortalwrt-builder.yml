@@ -26,7 +26,7 @@ env:
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
-  FIRMWARE_TAG: JohnnyDu-N60Pro
+  FIRMWARE_TAG: JohnnyDu
   TZ: Asia/Shanghai
 
 jobs:
