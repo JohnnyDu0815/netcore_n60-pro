@@ -18,3 +18,4 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 echo 'src-git JohnnyDu0815 https://github.com/JohnnyDu0815/openwrt-packages' >>feeds.conf.default
+rm -rf feeds/JohnnyDu0815/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd*,miniupnpd-iptables,wireless-regdb}
