@@ -18,3 +18,5 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 echo 'src-git JohnnyDu0815 https://github.com/JohnnyDu0815/openwrt-packages' >>feeds.conf.default
+
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
