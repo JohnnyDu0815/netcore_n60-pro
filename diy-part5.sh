@@ -37,5 +37,3 @@ config rule
         option proto 'udp'
         option target 'ACCEPT'
 EOF
-
-chmod -R 755 ./package/luci-app-adguardhome/*
